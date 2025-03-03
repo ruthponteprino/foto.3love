@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>foto.3love</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="./css/estilos.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+        rel="stylesheet">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+
+</head>
+
+<body>
+    <div id="contenedor">
+        <header>
+            <nav class="navbar navbar-expand-lg bg-body-tertiary">
+                <div class="container-fluid">
+                    <a class="navbar-brand" id="logo" href="#">foto.3love</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                        <ul class="navbar-nav">
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    luz
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="historia.html">historia</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    química
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="./quimica/index.html">revelado</a></li>
+                                    <li><a class="dropdown-item" href="./quimica/procesos.html">procesos
+                                            alternativos</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    máquina
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="./maquina/index.html">equipos</a></li>
+                                    <li><a class="dropdown-item" href="./maquina/peliculas.html">películas</a></li>
+                                    <li><a class="dropdown-item" href="./maquina/disparo.html">cómo usar una reflex</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    visión
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="artista.html">artista del mes</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    LAB
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="./lab/index.html">Hacé tu propia cámara</a></li>
+                                    <li><a class="dropdown-item" href="./lab/juego.html">Juego: practicar disparo</a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <main>
+            <section>
+                <div class="marquee-wrapper">
+                    <div class="marquee-content">
+                        <span>¡Que la magia de la película te inspire! 🚀</span>
+                        <span>¡Que la magia de la película te inspire! 🚀</span>
+                        <span>¡Que la magia de la película te inspire! 🚀</span><!-- Duplicar contenido para bucle -->
+                    </div>
+                </div>
+                <h2>algun titulo</h2>
+                <p>Este espacio está dedicado a todos los que quieren
+                    descubrir y
+                    sumergirse en el fascinante mundo de lo analógico. Aquí encontrarás toda la información, consejos y
+                    recursos para
+                    comenzar tu viaje en este arte único y atemporal.</p>
+            </section>
+
+            <div>
+                <h3>¿Por que?</h3>
+                <p>Porque en un mundo de inmediatez digital, la fotografía analógica te invita a detenerte, a sentir
+                    el
+                    proceso y a encontrar la magia en cada disparo. Es el arte de la espera, la emoción de lo
+                    impredecible y la
+                    belleza de lo auténtico. Cada imagen es única, irrepetible, con texturas y colores que solo el
+                    film puede capturar.</p>
+            </div>
+            <!-- CARDS  -->
+            <div class="contenedor-cards">
+                <div class="card" style="width: 18rem;">
+                    <img src="..." class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                            of the card's
+                            content.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+                <div class="card" style="width: 18rem;">
+                    <img src="..." class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                            of the card's
+                            content.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+                <div class="card" style="width: 18rem;">
+                    <img src="..." class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                            of the card's
+                            content.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+            </div>
+
+        </main>
+        <footer>
+            <a class="footer-item" href="./complementarias/index.html">contacto</a>
+            <a class="footer-item" href="./complementarias/desarrollador.html">desarrollador</a>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-flickr"></i>
+            <i class="fa-brands fa-pinterest"></i>
+        </footer>
+    </div>
+    <script src="https://kit.fontawesome.com/3f0ab8440b.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <script src="./js/main.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,14 @@
+#logo {
+    font-family: "Space Mono", monospace;
+    color: #e94f37;
+}
+
+.marquee-wrapper {
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.marquee-content {
+    display: inline-block;
+    white-space: nowrap;
+}
